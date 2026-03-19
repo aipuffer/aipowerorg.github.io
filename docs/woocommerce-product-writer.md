@@ -24,7 +24,7 @@ The WooCommerce Product Writer helps you create and improve your product listing
 
 The Product Writer is part of the **Content Assistant**, which is a free add-on. You must activate it first.
 
-1.  Navigate to **AIP > Add-ons**.
+1.  Navigate to **AI Puffer > Add-ons**.
 2.  Find the **Content Assistant** addon and click **Activate**.
 
 <img src={caaddon}  />
@@ -93,7 +93,7 @@ When writing prompts for your products, you can use the following placeholders t
 
 You can automatically update your products on a schedule using the **Automate** module.
 
-1.  Navigate to **AIP > Automate** and click **Add New Task**.
+1.  Navigate to **AI Puffer > Automate** and click **Add New Task**.
 2.  Give your task a name (e.g., "Monthly Product Description Refresh").
 3.  From the **Category** dropdown, select **Update Existing Content**.
 

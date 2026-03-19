@@ -82,7 +82,7 @@ export default function Showcase() {
             <div className="showcaseIntro">
                 <h1 className="showcaseHeading">User Showcase</h1>
                 <p className="showcaseDescription">
-                    Discover how various users are leveraging our AI Power tools to enhance their websites. 
+                    Discover how various users are leveraging our AI Puffer tools to enhance their websites. 
                     If you're using our plugin and want to share your work, feel free to add your site!
                 </p>
                 <a className="addYourSite" href="https://docs.google.com/forms/d/e/1FAIpQLSf6jFDWzMgZRFgWWy0X569y0Bz3Fcu2G62FYVgaiMHe5m9e3A/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">

@@ -9,13 +9,13 @@ import publicapi from '/img/rest/rest.png';
 
 # REST API Reference
 
-AIP's REST API provides a way to programmatically access its core AI functionalities from external applications. You can use it to generate text and images, create embeddings, or interact with your chatbots, all without needing to log in to the WordPress dashboard.
+AI Puffer's REST API provides a way to programmatically access its core AI functionalities from external applications. You can use it to generate text and images, create embeddings, or interact with your chatbots, all without needing to log in to the WordPress dashboard.
 
 ## Authentication
 
 All API requests must be authenticated. Access is controlled by a single **Public API Key** that you can set in the plugin's settings.
 
-1.  Navigate to **AIP > Dashboard** in your WordPress admin area.
+1.  Navigate to **AI Puffer > Dashboard** in your WordPress admin area.
 2.  Open the **Advanced** accordion.
 3.  In the **Public API Access** section, enter a strong, unique key. This key will be used to authenticate all of your API requests. Leaving this field blank disables all public API access.
 
@@ -343,7 +343,7 @@ curl -X POST https://your-website.com/wp-json/aipkit/v1/vector-stores/upsert \
     "vectors": [
         {
             "id": "doc1",
-            "content": "AI Power is a WordPress plugin.",
+            "content": "AI Puffer is a WordPress plugin.",
             "metadata": { "source": "manual" }
         },
         {

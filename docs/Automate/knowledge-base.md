@@ -15,7 +15,7 @@ This task automates the process of adding your website's content to a vector sto
 
 ## Creating a Content Indexing Task
 
-1.  Navigate to **AIP > Automate** and click **Add New Task**.
+1.  Navigate to **AI Puffer > Automate** and click **Add New Task**.
 2.  Give your task a descriptive **Name** (e.g., "Index Blog Posts").
 3.  From the **Category** dropdown, select **Knowledge Base**.
 
@@ -41,7 +41,7 @@ In this step, you define what content to index.
 Choose where to store your indexed content.
 
 :::info
-You must first configure your vector store providers in **AIP > Dashboard** and create the target stores/indexes in **AIP > Train**.
+You must first configure your vector store providers in **AI Puffer > Dashboard** and create the target stores/indexes in **AI Puffer > Train**.
 :::
 
 - **Vector Provider**: Select your service (OpenAI, Pinecone, or Qdrant).

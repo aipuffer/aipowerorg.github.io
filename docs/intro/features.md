@@ -5,19 +5,20 @@ title: Features
 sidebar_position: 2
 ---
 
-This page provides an overview of the main features available in AI Power.
+This page provides an overview of the main features available in AI Puffer.
 
 ## Chatbot
 
 Build and deploy AI chatbots on your website.
 
--   **AI Providers**: Connect to multiple AI providers, including OpenAI, Google, Azure, and **Ollama (Local AI)**.
+-   **AI Providers**: Connect to multiple AI providers, including OpenAI, Claude, Google, Azure, and **Ollama (Local AI)**.
 -   **Context-Aware**: The chatbot can use the content of the current page to answer questions.
 -   **File & Image Upload**: Users can upload files (PDF, TXT) and images for context during a conversation.
 -   **Knowledge Base**: Integrates with vector databases (OpenAI Vector Store, Pinecone, Qdrant) to answer questions based on your custom data.
 -   **Voice Options**: Enable voice input (Speech-to-Text) and voice playback (Text-to-Speech) using services like ElevenLabs, Google, and OpenAI.
 -   **Triggers**: Create automated rules to control the chatbot's behavior based on user actions or specific conditions.
 -   **Embed Anywhere**: Deploy your chatbots on any external, non-WordPress website using a simple HTML snippet.
+-   **Integrations**: Send chat sessions, user messages, responses, and feedback to Slack, Notion, n8n, and other connected apps, or to custom webhook endpoints.
 -   **Token Management**: Control usage by setting token limits for different user roles.
 -   **WooCommerce Integration**: Sell token packages as products in your store.
 
@@ -34,6 +35,7 @@ A suite of tools for generating and improving content.
 -   **Knowledge Base Context**: Generate articles with context from your custom knowledge base.
 -   **Task-Based Generation**: Create content in the background from various sources, including lists, CSV files, RSS feeds, URLs, and Google Sheets.
 -   **Smart Scheduling**: Automatically schedule posts to be published at set intervals.
+-   **Integrations**: Send generated content events to Slack, Notion, Zapier, Make, n8n, and custom webhook endpoints.
 
 ### Content Assistant
 
@@ -54,15 +56,18 @@ A background task manager for running AI processes on a schedule.
 -   **Scheduled Content Updates**: Improve existing posts or WooCommerce products in bulk on a recurring schedule.
 -   **Content Indexing**: Automatically add new or updated site content to your knowledge base (OpenAI, Pinecone, or Qdrant).
 -   **Community Engagement**: Set up a task to automatically reply to new blog comments.
+-   **Integrations**: Send task completion events to Slack, Make, n8n, and custom webhook endpoints.
 
 ## AI Forms
 
 Build and deploy custom forms that use AI to generate results.
 
 -   **Form Builder**: A drag-and-drop interface for designing forms.
+-   **Conditional Steps**: Build multi-step forms with conditional step flows.
 -   **AI Integration**: Connect forms to any supported AI provider and use custom prompts to process user input.
 -   **Themes**: Customize the look and feel of your forms.
 -   **Knowledge Base**: Allow forms to use your custom data for context-aware responses.
+-   **Integrations**: Send form submissions and AI responses to Slack, HubSpot, Pipedrive, Zapier, Make, n8n, and custom webhook endpoints.
 -   **Token Management**: Control form usage with token limits and sell access with WooCommerce.
 -   **Import/Export**: Back up and transfer your form configurations.
 
@@ -72,6 +77,7 @@ Add a text-to-image generator to the frontend of your website.
 
 -   **Multiple Providers**: Supports OpenAI (DALL-E), Google (Imagen), and a wide range of models via Replicate.
 -   **Shortcode Deployment**: Add the generator to any page or post with a simple shortcode.
+-   **Integrations**: Send image generation events to Notion, Slack, and custom webhook endpoints.
 -   **Token Management**: Control usage with token limits and sell image generation credits via WooCommerce.
 
 ## Train (Knowledge Base)
@@ -81,6 +87,14 @@ Create and manage a custom knowledge base for your AI.
 -   **Vector Database Support**: Integrates with OpenAI Vector Store, Pinecone, and Qdrant.
 -   **Multiple Indexing Methods**: Add content by pasting text, uploading files (TXT, PDF), or selecting existing WordPress posts and pages.
 -   **Index Management**: Create, view, and delete your vector indexes from the WordPress dashboard.
+-   **Integrations**: Send knowledge base indexing events to Slack and custom webhook endpoints.
+
+## Integrations
+
+Connect AI Puffer events to external tools and workflows.
+
+-   **Event Webhooks**: Send structured events from chatbot, AI Forms, content generation, image generation, automated tasks, and knowledge base activity to your own webhook endpoints.
+-   **Connected Apps**: Create reusable app connections and event-driven recipes for Slack, HubSpot, Notion, Pipedrive, Zapier, Make, and n8n.
 
 ## User Credits
 

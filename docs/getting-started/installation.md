@@ -13,13 +13,13 @@ This guide will help you install the plugin, whether you're starting with the fr
 
 ### Installing the Free Version
 
-To install the free version of AI Power - Complete AI Pack:
+To install the free version of AI Puffer - Complete AI Pack:
 
 1. Go to your WordPress admin dashboard.
 2. Click on **Plugins** in the sidebar menu.
 3. Click on **Add New** at the top of the Plugins page.
-4. Type **AI Power** in the search bar and press enter.
-5. Find **AI Power** in the search results and click **Install Now**.
+4. Type **AI Puffer** in the search bar and press enter.
+5. Find **AI Puffer** in the search results and click **Install Now**.
 
 <img src={install}/>
 
@@ -33,7 +33,7 @@ To upgrade to the Pro version, you have two options:
 
 #### Through the Free Version
 1. Install the free version as described above.
-2. Go to the **AI Power** menu in your WordPress dashboard's sidebar.
+2. Go to the **AI Puffer** menu in your WordPress dashboard's sidebar.
 3. Click on the **Upgrade** link.
 
 <img src={UpgradeButton} width="200"/>

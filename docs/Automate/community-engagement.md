@@ -16,7 +16,7 @@ This task helps you manage your community by automatically replying to new comme
 
 ## Creating an Auto-Reply Task
 
-1.  Navigate to **AIP > Automate** and click **Add New Task**.
+1.  Navigate to **AI Puffer > Automate** and click **Add New Task**.
 2.  Give your task a **Name** (e.g., "Blog Comment Replies").
 3.  From the **Category** dropdown, select **Engagement**. The type will be set to **Auto-Reply to Comments**.
 

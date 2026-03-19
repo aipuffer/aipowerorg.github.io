@@ -41,7 +41,7 @@ When you create a content writing task, you will be guided through a multi-step 
 
 ## Creating a Content Writing Task
 
-1.  Navigate to **AIP > Automate** and click **Add New Task**.
+1.  Navigate to **AI Puffer > Automate** and click **Add New Task**.
 2.  Give your task a descriptive **Name**.
 3.  From the **Category** dropdown, select **Create New Content**.
 4.  Choose the **Type** of content source you want to use (e.g., From List, From CSV, From RSS).
@@ -183,32 +183,32 @@ You can choose between generating new, unique images with an AI or searching for
 
 OpenAI offers high-quality image generation with models like DALL-E 3 and GPT-4o.
 
-- **Setup**: To use OpenAI, simply enter your API key in the main dashboard under **AIP > Dashboard > Providers > OpenAI**.
+- **Setup**: To use OpenAI, simply enter your API key in the main dashboard under **AI Puffer > Dashboard > Providers > OpenAI**.
 - **Usage**: Select **OpenAI** as the provider and choose your desired model (e.g., `dall-e-3`).
 
 ### Google
 
 Google's models offer high-quality image generation.
 
-- **Setup**: To use Google, enter your API key in the main dashboard under **AIP > Dashboard > Providers > Google**.
+- **Setup**: To use Google, enter your API key in the main dashboard under **AI Puffer > Dashboard > Providers > Google**.
 - **Usage**: Select **Google** as the provider and choose a model (e.g., `imagen-3.0-generate-002`, `imagen-4.0-ultra-generate-preview-06-06`).
 
 ### Azure
 
 Use your deployed DALL-E 2 and DALL-E 3 models from your Azure OpenAI service.
 
-- **Setup**: Configure your Azure API Key and Endpoint in the main dashboard under **AIP > Dashboard > Providers > Azure**.
+- **Setup**: Configure your Azure API Key and Endpoint in the main dashboard under **AI Puffer > Dashboard > Providers > Azure**.
 - **Usage**: Sync your deployments, then select **Azure** as the provider. Your available DALL-E deployments will appear in the **Model** dropdown.
 
 ### Replicate
 
 Replicate provides access to a wide variety of open-source models, including Stable Diffusion and more.
 
-1. Go to **AIP > Add-ons** and enable the **Replicate** addon.
+1. Go to **AI Puffer > Add-ons** and enable the **Replicate** addon.
 
 <img src={replicateaddon} width="600"/>
 
-2. Go to **AIP > Dashboard > Integrations** and enter your Replicate API key.
+2. Go to **AI Puffer > Dashboard > Integrations** and enter your Replicate API key.
 
 <img src={replicateapi} width="600"/>
 
@@ -220,11 +220,11 @@ Select **Replicate** as the provider. The **Model** dropdown will now be populat
 
 Pexels allows you to automatically search and insert high-quality, free stock photos into your content.
 
-1. Go to **AIP > Add-ons** and enable the **Stock Images** addon.
+1. Go to **AI Puffer > Add-ons** and enable the **Stock Images** addon.
 
 <img src={stockimagesaddon} />
 
-2. Go to **AIP > Dashboard > Integrations** and enter your Pexels API key.
+2. Go to **AI Puffer > Dashboard > Integrations** and enter your Pexels API key.
 
 <img src={stockimagesapi} width="600"/>
 
@@ -240,11 +240,11 @@ When you select **Pexels** as the provider, a new set of options appears:
 
 Pixabay is another excellent source for free stock photos that can be integrated directly into your workflow.
 
-1. Go to **AIP > Add-ons** and enable the **Stock Images** addon (if not already enabled).
+1. Go to **AI Puffer > Add-ons** and enable the **Stock Images** addon (if not already enabled).
 
 <img src={stockimagesaddon} width="600"/>
 
-2. Go to **AIP > Dashboard > Integrations** and enter your Pixabay API key.
+2. Go to **AI Puffer > Dashboard > Integrations** and enter your Pixabay API key.
 
 <img src={stockimagesapi} width="600"/>
 

@@ -18,7 +18,7 @@ The **Automate** module is a scheduling engine that lets you run various AI task
 
 ## Navigating the Automate Module
 
-When you go to **AIP > Automate**, you'll see two main sections: the **Task List** and the **Task Queue**.
+When you go to **AI Puffer > Automate**, you'll see two main sections: the **Task List** and the **Task Queue**.
 
 -   **Add New Task**: Click this button to open a multi-step wizard where you can configure a new automated task.
 -   **Task List**: This is where all your configured tasks live. You can edit, pause, or delete them from here.

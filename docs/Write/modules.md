@@ -60,7 +60,7 @@ The AI will generate a title and the full article, which will appear in the outp
 
 ## List
 
-For generating multiple articles, you can use one of the task-based modes. When you use these modes, instead of generating content immediately, AIP creates a task that runs in the background.
+For generating multiple articles, you can use one of the task-based modes. When you use these modes, instead of generating content immediately, AI Puffer creates a task that runs in the background.
 
 :::info
 

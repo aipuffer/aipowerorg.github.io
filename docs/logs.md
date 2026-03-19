@@ -19,7 +19,7 @@ The **Logs** module is a centralized hub for administrators to review all intera
 
 ## Navigating the Logs Module
 
-To access the logs, go to **AIP > Logs**. The module is divided into two main sections:
+To access the logs, go to **AI Puffer > Logs**. The module is divided into two main sections:
 
 -   **Log Viewer**: The default view for browsing and interacting with conversation logs.
 -   **Settings**: Tools for managing log retention and auto-deletion policies.

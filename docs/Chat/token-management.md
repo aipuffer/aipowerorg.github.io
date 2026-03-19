@@ -16,7 +16,7 @@ Token management allows you to control how many tokens users can consume within 
 ### How to Enable
 
 Token Management is a free add-on. To use it, you must first enable it:
-1.  Go to **AIP > Add-ons**.
+1.  Go to **AI Puffer > Add-ons**.
 2.  Activate the **Token Management** add-on.
 
 <img src={tokenaddon} />

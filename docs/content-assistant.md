@@ -25,7 +25,7 @@ The Content Assistant provides a suite of tools to improve existing content dire
 ## Activation
 The Content Assistant is a free add-on that must be activated first.
 
-1. Navigate to **AIP > Add-ons**.  
+1. Navigate to **AI Puffer > Add-ons**.  
 2. Find the Content Assistant addon and click **Activate**.  
    <img src={caaddon} />  
 
@@ -69,7 +69,7 @@ A modal shows multiple AI suggestions — click to apply.
 ## Editor Integration
 Use the Content Assistant directly inside the WordPress Block and Classic editors to process selected text with AI.
 
-1. Go to **AIP > Dashboard** and open the **Integrations** tab.  
+1. Go to **AI Puffer > Dashboard** and open the **Integrations** tab.  
 2. Open the Content Assistant accordion.  
    <img src={caeditor} width="600" />  
 3. Check **Enable Content Assistant in Post Editors**.  
@@ -77,7 +77,7 @@ Use the Content Assistant directly inside the WordPress Block and Classic editor
 ### Block Editor (Gutenberg)
 
 1. Select text in a paragraph/heading block.  
-2. Click the ✍️ AIP Content Assistant dropdown in the block toolbar (top of editor or inline toolbar).  
+2. Click the ✍️ AI Puffer Content Assistant dropdown in the block toolbar (top of editor or inline toolbar).  
    <img src={cablockeditor} />  
 3. Pick an action (e.g., Rewrite, Expand, Fix Grammar, Summarize, Create Outline, Generate FAQs, Simplify Tone). 
 
@@ -86,14 +86,14 @@ Use the Content Assistant directly inside the WordPress Block and Classic editor
 ### Classic Editor
 
 1. Select text in the editor.  
-2. Click the ✍️ AIP Content Assistant dropdown in the TinyMCE toolbar.  
+2. Click the ✍️ AI Puffer Content Assistant dropdown in the TinyMCE toolbar.  
    <img src={caeditorusage} />  
 3. Choose an action.  
 
 ## Managing Custom Actions
 You can create your own actions for the editor menus.
 
-1. Go to **AIP > Dashboard > Integrations > Content Assistant**.  
+1. Go to **AI Puffer > Dashboard > Integrations > Content Assistant**.  
 2. Add, Edit, or Delete actions.  
 
 <img src={caeditoractions} width="600"/>  

@@ -53,11 +53,11 @@ When a user types one of the trigger commands followed by a description, the cha
 
 :::info
 To use **Replicate**, follow these steps:
-1. Go to **AIP > Addons** and enable the **Replicate** addon.
+1. Go to **AI Puffer > Addons** and enable the **Replicate** addon.
 
 <img src={replicateaddon} width="600"/>
 
-2. Then go to the **AIP > Dashboard > Integrations** tab.
+2. Then go to the **AI Puffer > Dashboard > Integrations** tab.
 3. Open the **Replicate** section, enter your Replicate API key, and click **Sync Models**.
 4. After syncing, all available models will appear under the **Chatbot > Images** tab.
 

@@ -3,11 +3,13 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const googleAnalyticsTrackingId = 'G-D4CDTL01MK';
+const enableGoogleAnalytics = process.env.ENABLE_GTAG === 'true';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AIP',
-  tagline: 'Complete AI Pack for WordPress',
+  title: 'AI Puffer',
+  tagline: 'Your AI engine for WordPress.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -62,11 +64,15 @@ const config = {
           ignorePatterns: ['/tags/**'],
           filename: 'sitemap.xml',
         },
-        // Add your Google Analytics configuration here:
-        gtag: {
-          trackingID: 'G-D4CDTL01MK', // Replace 'G-XXXXXXXXXX' with your Google Analytics tracking ID.
-          anonymizeIP: true,
-        },
+        // Keep analytics off for localhost previews unless explicitly enabled.
+        ...(enableGoogleAnalytics
+          ? {
+              gtag: {
+                trackingID: googleAnalyticsTrackingId,
+                anonymizeIP: true,
+              },
+            }
+          : {}),
       }),
     ],
   ],
@@ -77,9 +83,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/ai-power-social-card.jpg',
       navbar: {
-        title: 'AIP',
+        title: 'AI Puffer',
         logo: {
-          alt: 'Complete AI Pack for WordPress',
+          alt: 'Your AI engine for WordPress.',
           src: 'img/logo.png',
         },
         items: [
@@ -130,7 +136,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AIP`,
+        copyright: `Copyright © ${new Date().getFullYear()} AI Puffer`,
       },
       prism: {
         theme: lightCodeTheme,

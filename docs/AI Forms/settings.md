@@ -12,7 +12,7 @@ import providerfilter from '/img/ai-forms/provider-filter.png';
 
 The global settings for the AI Forms module allow you to control token usage, create a custom theme, and filter which AI models are available on the frontend.
 
-To access these settings, navigate to **AIP > Forms** and click the **Settings** tab.
+To access these settings, navigate to **AI Puffer > Forms** and click the **Settings** tab.
 
 ### Custom CSS
 
@@ -22,7 +22,7 @@ This section allows you to define custom CSS rules that will apply to any form u
 
 ### Provider & Model Filtering
 
-By default, any AI provider and model you have enabled in the main **AIP > Dashboard** will be available for users to select on the frontend (if you have `show_provider="true"` or `show_model="true"` enabled in the shortcode).
+By default, any AI provider and model you have enabled in the main **AI Puffer > Dashboard** will be available for users to select on the frontend (if you have `show_provider="true"` or `show_model="true"` enabled in the shortcode).
 
 <img src={providerfilter} width="600"/>
 

@@ -12,10 +12,10 @@ import tocsettings from '/img/write/toc.png';
 
 # SEO
 
-AIP helps you optimize your content for search engines by automatically generating SEO elements like meta descriptions and focus keywords. You can also add a Table of Contents to improve readability.
+AI Puffer helps you optimize your content for search engines by automatically generating SEO elements like meta descriptions and focus keywords. You can also add a Table of Contents to improve readability.
 
 :::info Supported SEO Plugins
-AIP automatically detects and saves the generated Meta Description and Focus Keyword to the following SEO plugins:
+AI Puffer automatically detects and saves the generated Meta Description and Focus Keyword to the following SEO plugins:
 
 -   Yoast SEO
 -   Rank Math

@@ -16,7 +16,7 @@ This task allows you to automatically improve existing content on your site. You
 
 ## Creating a Content Update Task
 
-1.  Navigate to **AIP > Automate** and click **Add New Task**.
+1.  Navigate to **AI Puffer > Automate** and click **Add New Task**.
 2.  Give your task a **Name** (e.g., "Refresh Old Blog Posts").
 3.  From the **Category** dropdown, select **Update Existing Content**. The type will be set automatically.
 

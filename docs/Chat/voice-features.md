@@ -16,14 +16,14 @@ import ttsenable from '/img/chat/tts-enable.png';
 
 # Voice Features
 
-AIP brings your chatbot to life with two distinct voice functionalities: the new **Realtime Voice Agent** for live, spoken conversations, and the classic **Voice Input/Playback** for transcribing user speech and reading bot responses aloud.
+AI Puffer brings your chatbot to life with two distinct voice functionalities: the new **Realtime Voice Agent** for live, spoken conversations, and the classic **Voice Input/Playback** for transcribing user speech and reading bot responses aloud.
 
 ## Realtime Voice Agent
 
 This feature enables low-latency, speech-to-speech conversational experiences using OpenAI's Realtime API. When activated, users can talk to your chatbot and receive spoken replies in near real-time, creating a fluid and natural voice agent.
 
 :::info This is a Pro Feature
-To use this feature, you need a Pro plan and the **Realtime Voice** addon must be enabled from the **AIP > Add-ons** page.
+To use this feature, you need a Pro plan and the **Realtime Voice** addon must be enabled from the **AI Puffer > Add-ons** page.
 <img src={realtimeaddon} />
 :::
 
@@ -92,7 +92,7 @@ This feature uses **OpenAI's Whisper model** for transcription. Ensure your Open
 
 #### How to Enable
 
-1.  Navigate to your chatbot's settings in **AIP > Chat**.
+1.  Navigate to your chatbot's settings in **AI Puffer > Chat**.
 2.  Open your chatbot’s Audio settings (Configure).
 3.  Turn on “Enable Speech to Text” and select the model (default: whisper‑1).
 
@@ -103,7 +103,7 @@ This feature uses **OpenAI's Whisper model** for transcription. Ensure your Open
 ### Voice Playback (Text-to-Speech)
 
 :::info
-AIP supports three TTS providers: **OpenAI**, **Google**, and **ElevenLabs**.
+AI Puffer supports three TTS providers: **OpenAI**, **Google**, and **ElevenLabs**.
 
 - For **OpenAI** and **Google**, the plugin uses the API keys you entered under **Main Dashboard > Providers**.
 - For **ElevenLabs**, once the **Voice Playback (TTS)** add-on is activated, go to **Main Dashboard > Integrations** to enter your ElevenLabs API key and sync available models and voices.
@@ -114,11 +114,11 @@ This feature adds a "play" button to each of the chatbot's responses, allowing u
 
 #### How to Enable
 
-1.  Go to **AIP > Add-ons** and activate the **Voice Playback (TTS)** add-on. This is a free add-on.
+1.  Go to **AI Puffer > Add-ons** and activate the **Voice Playback (TTS)** add-on. This is a free add-on.
 
 <img src={voiceplaybackaddon} width="600"/>
 
-2.  Return to your chatbot's settings in **AIP > Chat**.
+2.  Return to your chatbot's settings in **AI Puffer > Chat**.
 3.  Open your chatbot’s Audio settings (Configure) and enable “Text to Speech.”
 
 #### Configuration

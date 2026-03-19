@@ -8,7 +8,7 @@ const FeatureList = [
     // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        AIP is designed to be easily installed and used, enabling you to enhance your WordPress website with advanced AI capabilities quickly and effortlessly.
+        AI Puffer is designed to be easily installed and used, enabling you to enhance your WordPress website with advanced AI capabilities quickly and effortlessly.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        AIP allows you to concentrate on your content, while we handle the technical aspects. Simply install our plugin, and let it do the heavy lifting.
+        AI Puffer allows you to concentrate on your content, while we handle the technical aspects. Simply install our plugin, and let it do the heavy lifting.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        AIP offers the ability to extend or customize your website's capabilities, all powered by the state-of-the-art ai models.
+        AI Puffer offers the ability to extend or customize your website's capabilities, all powered by the state-of-the-art ai models.
       </>
     ),
   },

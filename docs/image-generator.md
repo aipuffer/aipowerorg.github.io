@@ -24,7 +24,7 @@ import replicatesafety from '/img/image-generator/replicate-safety.png';
 
 The **Image Generator** module allows you to add a text-to-media tool directly to your website using a simple shortcode. Users can generate unique images and videos from text prompts, and logged-in users can view their creation history.
 
-To get started, go to **AIP > Images**. This screen contains a live preview of the frontend generator and the tools to configure its shortcode.
+To get started, go to **AI Puffer > Images**. This screen contains a live preview of the frontend generator and the tools to configure its shortcode.
 
 <img src={mainui} />
 
@@ -98,17 +98,17 @@ Use your deployed DALL-E 2 and DALL-E 3 models from your Azure OpenAI service. S
 Replicate provides access to a wide variety of open-source models, including Stable Diffusion and more.
 
 :::info Replicate is a Free Addon
-To use Replicate models, you must first enable the **Replicate** addon from the **AIP > Add-ons** page.
+To use Replicate models, you must first enable the **Replicate** addon from the **AI Puffer > Add-ons** page.
 <img src={replicateaddon} width="600"/>
 :::
 
 ## Settings
 
-Global settings for the Image Generator are managed from the **Settings** tab on the **AIP > Images** page.
+Global settings for the Image Generator are managed from the **Settings** tab on the **AI Puffer > Images** page.
 
 ### Token Management
 
-Token Management is a free add-on. To use it, you must first enable it from **AIP > Add-ons**.
+Token Management is a free add-on. To use it, you must first enable it from **AI Puffer > Add-ons**.
 
 <img src={tokenaddon} />
 

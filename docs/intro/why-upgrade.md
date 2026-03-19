@@ -6,7 +6,7 @@ slug: /why-upgrade
 
 # Why Upgrade to Pro?
 
-The Pro version of AIP provides a set of additional features. This page outlines the key functionalities available in the Pro plan.
+The Pro version of AI Puffer provides a set of additional features. This page outlines the key functionalities available in the Pro plan.
 
 :::info Important
 
@@ -42,6 +42,10 @@ Purchasing our plugin does not include any API credits. You must have a valid AP
 | | Realtime Voice Agent | ❌ | ✅ |
 | | PDF Download of Transcripts | ❌ | ✅ |
 | | Embed Anywhere (External Sites) | ❌ | ✅ |
+| **AI Forms** | | | |
+| | Conditional Steps | ❌ | ✅ |
+| **Integrations** | | | |
+| | Connected Apps (Slack, HubSpot, Notion, Pipedrive, Zapier, Make, n8n) | ❌ | ✅ |
 | **Content Creation** | | | |
 | | Content Assistant | ✅ | ✅ |
 | | WooCommerce Product Writer | ✅ | ✅ |
@@ -56,6 +60,7 @@ Purchasing our plugin does not include any API credits. You must have a valid AP
 | | OpenAI Vector Store | ✅ | ✅ |
 | | Pinecone Integration | ✅ | ✅ |
 | | Qdrant Integration | ✅ | ✅ |
+| | Custom Post Type Indexing | ❌ | ✅ |
 | **Security & Privacy** | | | |
 | | IP Anonymization | ✅ | ✅ |
 | | OpenAI Moderation | ❌ | ✅ |
@@ -70,6 +75,7 @@ Purchasing our plugin does not include any API credits. You must have a valid AP
 :::tip Key Pro Benefits
 - **Enhanced Privacy**: Run AI models locally with Ollama integration
 - **Advanced Automation**: Create complex workflows with triggers and enhanced content automation
+- **App Integrations**: Send events to Slack, HubSpot, Notion, Pipedrive, Zapier, Make, and n8n
 - **Extended Reach**: Deploy chatbots on external websites
 - **Premium Features**: File uploads, PDF downloads, realtime voice agents
 - **Priority Support**: Dedicated email channel for faster issue resolution
@@ -80,7 +86,7 @@ slug: /why-upgrade
 
 # Why Upgrade to Pro?
 
-The Pro version of AIP provides a set of additional features. This page outlines the key functionalities available in the Pro plan.
+The Pro version of AI Puffer provides a set of additional features. This page outlines the key functionalities available in the Pro plan.
 
 :::info Important
 
@@ -96,6 +102,8 @@ Paid plan users get access to a dedicated email channel for priority support wit
 
 -   **Ollama Integration**: Run AI models locally on your own hardware. Connect to any model served by Ollama for enhanced privacy, cost control, and offline capabilities. Learn more at [AI Providers](/docs/ai-providers#ollama-local-ai).
 
+-   **Connected Apps**: Send chatbot, AI Forms, content, image, task, and knowledge base events to Slack, HubSpot, Notion, Pipedrive, Zapier, Make, and n8n with reusable connections and recipes.
+
 -   **Triggers**: Build complex, automated workflows for your chatbot using an event-based system. Create rules that perform actions (like sending a specific reply or calling a webhook) when certain events occur and conditions are met. Learn more at [Triggers](/docs/triggers).
 
 -   **Realtime Voice Agent**: Enable live, low-latency, speech-to-speech conversations with your chatbot using OpenAI's Realtime API for a natural voice agent experience. Learn more at [Voice Agents](/docs/voice-features#realtime-voice-agent).
@@ -110,9 +118,13 @@ Paid plan users get access to a dedicated email channel for priority support wit
 
 -   **Advanced Automation Sources**: Create content automatically from a wider range of sources in the **Automate** module, including RSS feeds, a list of URLs, and Google Sheets. Learn more at [Content Creation](/docs/content-creation).
 
+-   **AI Forms Conditional Steps**: Build multi-step AI Forms with conditional step flows.
+
 -   **Automated Content Update**: Schedule a recurring task to automatically improve your existing posts or WooCommerce products. The AI can rewrite titles, update excerpts, and update content based on your custom prompts. Learn more at [Content Update](/docs/content-update).
 
 -   **Advanced Content Indexing**: Gain fine-grained control over the data used to train your knowledge base. Select specific custom fields and taxonomies to include or exclude from the indexing process for each content type. Learn more at [Knowledge Base / Training](/docs/ai-training/intro#content-indexing-controls).
+
+-   **Custom Post Type Indexing**: Include supported custom post types in your knowledge base indexing workflows.
 
 ## Administration & Compliance
 

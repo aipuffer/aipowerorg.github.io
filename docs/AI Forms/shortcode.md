@@ -16,7 +16,7 @@ Once you have created a form, you can display it anywhere on your site—on a pa
 
 ### Getting the Shortcode
 
-1.  Navigate to **AIP > Forms**.
+1.  Navigate to **AI Puffer > Forms**.
 2.  In the list of forms, find the form you want to display.
 
 <img src={shortcodes} />

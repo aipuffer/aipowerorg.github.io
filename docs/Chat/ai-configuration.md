@@ -43,7 +43,7 @@ This field defines your chatbot's personality and purpose. It's a set of instruc
 <img src={instructions} width="600" />
 
 **Example:**
-> You are a friendly and helpful customer support agent for a company named "AIP." Your goal is to answer questions about our products and help users troubleshoot common issues. Be polite and concise in your responses.
+> You are a friendly and helpful customer support agent for a company named "AI Puffer." Your goal is to answer questions about our products and help users troubleshoot common issues. Be polite and concise in your responses.
 
 You can use placeholders to automatically insert dynamic values into the prompt when a conversation starts. For example:
 
@@ -83,7 +83,7 @@ This reduces token usage and enables continuous conversations that can exceed no
 
 <img src={stateful} />
  
-The "Store Conversation" setting must be enabled in the main **AIP > Dashboard > OpenAI** settings.
+The "Store Conversation" setting must be enabled in the main **AI Puffer > Dashboard > OpenAI** settings.
 
 ### Max Messages
 

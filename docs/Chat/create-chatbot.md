@@ -31,7 +31,7 @@ This guide will walk you through the basics of creating, editing, and managing y
 
 ## Creating a New Bot
 
-1.  Navigate to **AIP > Chat** from your WordPress dashboard.
+1.  Navigate to **AI Puffer > Chat** from your WordPress dashboard.
 2.  Click the **+ New Bot** button at the top of the page.
 
 <img src={createbot} />
@@ -116,7 +116,7 @@ This feature allows you to embed your chatbot on any other website, even if it's
 :::
 
 :::info
-To use this feature, you need a Pro plan and the **Embed Anywhere** addon must be enabled from the **AIP > Add-ons** page.
+To use this feature, you need a Pro plan and the **Embed Anywhere** addon must be enabled from the **AI Puffer > Add-ons** page.
 <img src={embedaddon} />
 :::
 

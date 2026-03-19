@@ -24,7 +24,7 @@ This system works with the following modules:
 
 ## How It Works
 
-1.  **Activate the Add-on**: Token management is a free add-on that you must activate first from the **AIP > Add-ons** page.
+1.  **Activate the Add-on**: Token management is a free add-on that you must activate first from the **AI Puffer > Add-ons** page.
 <img src={tokenaddon} />
 2.  **Set Usage Limits**: For each module (Chat, AI Forms, Image Generator), you can define periodic usage limits (e.g., 10,000 tokens per day) for guests and different user roles. This is your "free tier".
 3.  **Sell Token Packages**: Using our WooCommerce integration, you can create products that grant a specific number of tokens upon purchase. When a user buys a package, these tokens are added to their personal, non-expiring "token balance".
@@ -38,7 +38,7 @@ You can sell tokens by creating special products in WooCommerce.
 
 1.  Navigate to **Products > Add New** in your WordPress dashboard.
 2.  Create a product as you normally would (e.g., a Simple product). Set a price for it.
-3.  In the product data section, find the **AI Power: Token Package** meta box on the right-hand side.
+3.  In the product data section, find the **AI Puffer: Token Package** meta box on the right-hand side.
 
 <img src={productmetabox} />
 
@@ -54,7 +54,7 @@ Once a customer purchases this product and the WooCommerce order is marked as **
 
 As a site administrator, you can view and manage all user token data from one central screen.
 
-1.  Navigate to **AIP > Credits** from your WordPress dashboard.
+1.  Navigate to **AI Puffer > Credits** from your WordPress dashboard.
 2.  This screen displays a comprehensive overview of your users' token status.
 
 <img src={creditsadmin} />
@@ -71,7 +71,7 @@ As a site administrator, you can view and manage all user token data from one ce
 
 You can allow your logged-in users to see their own token balance, purchase history, and periodic usage on any page of your site.
 
-1.  Navigate to **AIP > Credits**.
+1.  Navigate to **AI Puffer > Credits**.
 2.  At the top of the page, copy the `[aipkit_token_usage]` shortcode.
 
 3.  Click the settings icon <span class="dashicons dashicons-admin-settings"></span> to configure which modules are displayed in the usage table (Chatbot, AI Forms, Image Generator).

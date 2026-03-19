@@ -20,7 +20,7 @@ This feature connects directly to a knowledge base you've created in the **[Trai
 
 Semantic Search is a free add-on that you must activate first.
 
-1.  Navigate to **AIP > Add-ons**.
+1.  Navigate to **AI Puffer > Add-ons**.
 2.  Find the **Semantic Search** add-on and click **Activate**.
 
 <img src={semanticaddon} />
@@ -29,7 +29,7 @@ Semantic Search is a free add-on that you must activate first.
 
 All settings for the search feature are managed globally.
 
-1.  Go to **AIP > Dashboard** and open the **Integrations** tab.
+1.  Go to **AI Puffer > Dashboard** and open the **Integrations** tab.
 2.  Find and expand the **Semantic Search** accordion.
 
 <img src={semanticenable} />

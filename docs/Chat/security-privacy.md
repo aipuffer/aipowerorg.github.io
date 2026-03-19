@@ -16,21 +16,21 @@ import ipanon from '/img/chat/ip-anonym.png';
 
 # Security & Privacy
 
-AIP provides several features to help you secure your chatbots, moderate content, and protect user privacy. These settings are configured globally in the main **Dashboard**.
+AI Puffer provides several features to help you secure your chatbots, moderate content, and protect user privacy. These settings are configured globally in the main **Dashboard**.
 
 ## Moderation
 
 You can automatically filter harmful content from user messages using OpenAI's Moderation API. This helps prevent inappropriate language and abuse.
 
 :::info This is a Pro Feature
-To use this feature, you need a Pro plan and the **OpenAI Moderation** addon must be enabled from the **AIP > Add-ons** page.
+To use this feature, you need a Pro plan and the **OpenAI Moderation** addon must be enabled from the **AI Puffer > Add-ons** page.
 <img src={moderationaddon} width="600"/>
 :::
 
 This feature only works for chatbots that are configured to use **OpenAI** as their provider.
 
 **How to Configure:**
-1. Go to **AIP > Dashboard**.
+1. Go to **AI Puffer > Dashboard**.
 2. Open **Advanced** accordion.
 3. Enable the **OpenAI Moderation** toggle under **Content Control & Moderation** tab.
 
@@ -43,12 +43,12 @@ This feature only works for chatbots that are configured to use **OpenAI** as th
 You can require users to agree to your terms and policies before they can start a conversation.
 
 :::info This is a Pro Feature
-To use this feature, you need a Pro plan and the **Consent Compliance Box** addon must be enabled from the **AIP > Add-ons** page.
+To use this feature, you need a Pro plan and the **Consent Compliance Box** addon must be enabled from the **AI Puffer > Add-ons** page.
 <img src={consentaddon} width="600"/>
 :::
 
 **How to Configure:**
-1. Go to **AIP > Dashboard**.
+1. Go to **AI Puffer > Dashboard**.
 2. Open **Advanced** accordion.
 
 <img src={consentsettings} width="600"/>
@@ -67,7 +67,7 @@ When enabled, a consent box will appear over the chat input area. The user must 
 This feature allows you to block specific IP addresses from using the chatbots.
 
 **How to Configure:**
-1. Go to **AIP > Dashboard**.
+1. Go to **AI Puffer > Dashboard**.
 2. Open **Advanced** accordion.
 3. **Content Control & Moderation** tab, in the **Banned IPs** field, enter the IP addresses you want to block, separated by commas.
 
@@ -80,7 +80,7 @@ This feature allows you to block specific IP addresses from using the chatbots.
 This feature allows you to block messages that contain specific words or phrases. The check is not case-sensitive.
 
 **How to Configure:**
-1. Go to **AIP > Dashboard**.
+1. Go to **AI Puffer > Dashboard**.
 2. Open **Advanced** accordion.
 3. **Content Control & Moderation** tab, in the **Banned Words** field, enter the words or phrases you want to block, separated by commas.
 

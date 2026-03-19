@@ -28,12 +28,12 @@ The resulting knowledge base can then be used by other modules like the [Chatbot
 
 Before creating a knowledge base, you must configure your vector database provider in the main dashboard.
 
--   **OpenAI**: Go to **AIP > Dashboard > Providers** and enter your OpenAI API Key. Vector Stores are available by default.
--   **Pinecone & Qdrant**: These are available via a free add-on. First, go to **AIP > Add-ons** and activate the **Vector DB Integrations** add-on.
+-   **OpenAI**: Go to **AI Puffer > Dashboard > Providers** and enter your OpenAI API Key. Vector Stores are available by default.
+-   **Pinecone & Qdrant**: These are available via a free add-on. First, go to **AI Puffer > Add-ons** and activate the **Vector DB Integrations** add-on.
 
 <img src={vectordbaddon} width="600"/>
 
-- Then, go to **AIP > Dashboard > Integrations** to enter your API keys and other required credentials for Pinecone or Qdrant.
+- Then, go to **AI Puffer > Dashboard > Integrations** to enter your API keys and other required credentials for Pinecone or Qdrant.
 
 <img src={vectorapi} width="600"/>
 

@@ -14,23 +14,27 @@ import googleapi from '/img/providers/google.png';
 import googlesafety from '/img/providers/safety.png';
 
 import openrouterapi from '/img/providers/openrouter.png';
+import openroutersettings from '/img/providers/openrouter-settings.png';
 
 import azureapi from '/img/providers/azure.png';
+import azuresettings from '/img/providers/azure-settings.png';
 
-import deepseekaddon from '/img/providers/deepseek-addon.png';
 import deepseek from '/img/providers/deepseek.png';
+import deepseeksettings from '/img/providers/deepseek-settings.png';
 
-import ollamaaddon from '/img/providers/ollama-addon.png';
 import ollama from '/img/providers/ollama.png';
+
+import claude from '/img/providers/claude.png';
+import claudesettings from '/img/providers/claude-settings.png';
 
 import parameters from '/img/providers/parameters.png';
 
 # Overview
 
-`AIP > Dashboard` is the central area for managing your connections to different AI services and setting the default behavior for all of AIP's modules.
+`AI Puffer > Settings` is the central area for managing your connections to different AI services and setting the default behavior for all of AI Puffer's modules.
 
-:::info AIP uses a Bring Your Own API Key model
-To use the plugin, you must have a valid API key from your preferred AI provider (e.g., OpenAI, Google, Azure).
+:::info AI Puffer uses a Bring Your Own API Key model
+To use the plugin, you must have a valid API key from your preferred AI provider (e.g., OpenAI, Claude, Google, Azure).
 **Purchasing the plugin does not include any API credits.**
 
 :::
@@ -45,27 +49,47 @@ OpenAI provides popular gpt and image generation models.
 
 **Configuration Steps**
 
+- Click the Settings button in the top navigation bar.
 - **Select the Provider**: From the **Engine** dropdown menu, choose **OpenAI**. The provider selected here will also be the default for all modules.
 - **Enter API Key**: In the API Key field, enter your secret key from OpenAI. You can click the **Get Key** button to go directly to the [OpenAI API Keys page](https://platform.openai.com/).
 
 <img src={OpenAISetup} width="600" />
 
-- **Sync Models**: Click the **Sync** button. AIP will connect to OpenAI and download a list of all AI models available to your account, including any custom fine-tuned models you have.
+**OpenAI-Specific Settings**
+
+These settings are found in the **Advanced** tab when OpenAI is the selected provider.
+
+- **Sync Models**: Click **Sync** button. AI Puffer will connect to OpenAI and download a list of all AI models available to your account, including any custom fine-tuned models you have.
+- **Select a Default Model**: Once the sync is complete, the **Model** dropdown will be populated. Select a default model for the plugin to use (e.g., `gpt-4o-mini`).
+- **Base URL:** This setting allows you to use a proxy service instead of the default `https://api.openai.com` endpoint.
+- **Store Conversation:** When enabled, OpenAI will store conversations for 30 days. You can view them [OpenAI Logs page](https://platform.openai.com/logs). This must be enabled if you wish to use the **stateful conversation** feature in the Chatbot module.
 
 <img src={finetune} width="600" />
 
-- **Select a Default Model**: Once the sync is complete, the **Model** dropdown will be populated. Select a default model for the plugin to use (e.g., `gpt-4o-mini`).
-
-**OpenAI-Specific Settings**
-
-These settings are found in the **Parameters** accordion when OpenAI is the selected provider.
-
-- **Base URL:** This setting allows you to use a proxy service instead of the default `https://api.openai.com` endpoint.
-- **Store Conversation:** When enabled, OpenAI will store conversations for 30 days. You can view them [OpenAI Logs page](https://platform.openai.com/logs). This must be enabled if you wish to use the **stateful conversation** feature in the Chatbot module.
 - **Vector Store File Expiration:** Sets the default number of days (1-365) that files uploaded to an OpenAI Vector Store will be kept before being automatically deleted. The default is 7 days. This setting only applies to files uploaded by users via the frontend Chatbot and AI Forms modules.
 It's a good idea to keep this value low to ensure temporary uploads are cleaned up regularly, reducing storage load and privacy risks.
 
-<img src={openaisettings} width="600" />
+## Claude
+
+Claude is Anthropic's family of AI models for chat, reasoning, and coding tasks.
+
+**Configuration Steps**
+
+- **Select the Provider**: From the **Engine** dropdown menu, choose **Claude**.
+- **Enter API Key**: Enter your API key from the [Anthropic Console](https://console.anthropic.com/settings/keys).
+
+<img src={claude} width="600" />
+
+**Claude-Specific Settings**
+
+These settings are found in the **Advanced** tab when Claude is the selected provider.
+
+- **Sync Models**: Click **Sync** button to fetch the available Claude models from your Anthropic account.
+- **Select a Default Model**: Choose a default model, such as `Claude Opus 4.6`.
+
+<img src={claudesettings} width="600" />
+
+- **Base URL:** This setting allows you to use a proxy service instead of the default `https://api.anthropic.com/` endpoint.
 
 ## Google
 
@@ -78,11 +102,10 @@ Google provides the Gemini family of models.
 
 <img src={googleapi} width="600" />
 
-- **Sync Models**: Click the **Sync** button to fetch available Gemini models.
-- **Select a Default Model**: Choose a default model, such as `gemini-1.5-pro-latest`.
-
 **Google-Specific Settings**
 
+- **Sync Models**: Click **Advanced** and then **Sync** button to fetch available Gemini models.
+- **Select a Default Model**: Choose a default model, such as `gemini-1.5-pro-latest`.
 - **Base URL:** This setting allows you to use a proxy service instead of the default `https://generativelanguage.googleapis.com` endpoint.
 - **Safety Settings**: Found in the **Parameters** accordion, this allows you to configure Google's content safety filters. You can set a blocking threshold (from Block None to Block Most) for categories like Harassment, Hate Speech, Sexually Explicit, and Dangerous Content.
 
@@ -94,17 +117,20 @@ Azure allows you to use ai models hosted on the Microsoft Azure platform.
 
 **Configuration Steps**
 
-1.  **Select the Provider**: From the **Engine** dropdown menu, choose **Azure**.
-2.  **Enter API Key and Endpoint**: You must provide both your **API Key** and your unique **Endpoint URL** from your Azure AI Studio resource.
+- **Select the Provider**: From the **Engine** dropdown menu, choose **Azure**.
+- **Enter API Key and Endpoint**: You must provide both your **API Key** and your unique **Endpoint URL** from your Azure AI Studio resource.
 
 <img src={azureapi} width="600" />
 
-3.  **Sync Deployments**: For Azure, the "Sync" button fetches your **Deployments**, not the base models. You must first deploy a model (e.g., gpt-4o) in Azure to have it appear in the list.
-4.  **Select a Default Deployment**: Choose one of your synced deployments as the default.
-
 **Azure-Specific Settings**
 
+- **Sync Deployments**: For Azure, the "Sync" button fetches your **Deployments**, not the base models. You must first deploy a model (e.g., gpt-4o) in Azure to have it appear in the list.
+- **Select a Default Deployment**: Choose one of your synced deployments as the default.
+
+<img src={azuresettings} width="600" />
+
 - **Endpoint URL:** This is the endpoint URL for your specific Azure AI resource. It is a required field.
+
 
 ## OpenRouter
 
@@ -117,10 +143,12 @@ OpenRouter is a service that gives you access to a wide variety of models from d
 
 <img src={openrouterapi} width="600" />
 
-- **Sync Models**: Click the **Sync** button. This will fetch a large list of available models.
+**OpenRouter-Specific Settings**
+
+- **Sync Models**: Click **Sync** button. This will fetch a large list of available models.
 - **Select a Default Model**: Choose a default model from the list, such as `anthropic/claude-3.7-sonnet`.
 
-**OpenRouter-Specific Settings**
+<img src={openroutersettings} width="600" />
 
 - **Base URL:** This setting allows you to use a proxy service instead of the default `https://openrouter.ai/api` endpoint.
 
@@ -134,26 +162,21 @@ Unlike other providers, DeepSeek is not available by default. You must enable it
 
 **Configuration Steps**
 
-- **Enable the Addon**: Go to the **AIP > Addons** page and enable the **DeepSeek** addon.
-
-<img src={deepseekaddon} width="600" />
-
-- **Select the Provider**: After enabling, go to the **Engine** dropdown menu and choose **DeepSeek**.
+- **Select the Provider**: Go to the **Engine** dropdown menu and choose **DeepSeek**.
 - **Enter API Key**: Enter your API key from the DeepSeek platform.
 
 <img src={deepseek} width="600" />
 
-- **Sync Models**: Click the **Sync** button to fetch the available models.
+**DeepSeek-Specific Settings**
+
+- **Sync Models**: Click **Sync** button to fetch the available models.
 - **Select a Default Model**: Choose a default model, such as `deepseek-chat`.
+
+<img src={deepseeksettings} width="600" />
 
 ## Ollama (Local AI)
 
 Ollama allows you to run powerful, open-source large language models locally on your own computer. This is a Pro feature that offers maximum privacy and control over your AI operations.
-
-:::info This is a Pro Feature
-To use Ollama, you need a Pro plan and the **Ollama Integration** addon must be enabled from the **AIP > Add-ons** page.
-<img src={ollamaaddon} />
-:::
 
 ### Step 1: Install Ollama
 
@@ -194,28 +217,16 @@ With the Ollama application running, you need to download (or "pull") a model. Y
     ```
     This will download the model to your computer. You can pull as many models as you like.
 
-### Step 3: Configure AIP Plugin
+### Step 3: Configure AI Puffer Plugin
 
 Now, connect your WordPress site to your running Ollama instance.
 
-- **Enable the Addon**: Go to **AIP > Add-ons** and activate the **Ollama Integration** addon.
-- **Select the Provider**: Go to **AIP > Dashboard**. From the **Engine** dropdown, choose **Ollama**.
-- **Enter Base URL**: Enter the URL where your Ollama server is running. If you are running it on the same computer as your local WordPress development site, the default URL is `http://localhost:11434`.
+- Go to **AI Puffer > Settings > AI** tab and select Ollama from engine list.
+- Enter the URL where your Ollama server is running. If you are running it on the same computer as your local WordPress development site, the default URL is `http://localhost:11434`.
 
 <img src={ollama} />
 
-- **Sync Models**: Click the **Sync** button. AIP will connect to your Ollama server and fetch the list of models you have pulled.
+- **Sync Models**: Click the **Sync** button. AI Puffer will connect to your Ollama server and fetch the list of models you have pulled.
 - **Select a Default Model**: Choose one of your local models as the default.
 
 Your site is now configured to use your local Ollama models!
-
-## Global AI Parameters
-
-This section, found in the **Parameters** accordion, controls the default behavior of the AI across all modules. These settings can usually be overridden in specific modules (like the content enhancer tools).
-
-*   **Max Tokens:** Sets the maximum length of the AI's response. A higher number allows for longer content but may increase costs.
-*   **Temperature:** Controls the creativity of the AI. A higher value (e.g., `1.2`) makes the output more random and creative. A lower value (e.g., `0.5`) makes it more focused and predictable.
-
-<img src={parameters} width="600" />
-
-*   **Top P:** An alternative method to Temperature for controlling randomness. It is recommended to alter only one of these, not both.
